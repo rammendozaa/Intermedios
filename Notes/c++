@@ -1,0 +1,15 @@
+c++
+
+cout << " " <<  setfill('0') << setw(2) << uppercase << hex << a
+--imprime dos valores del hexadecimal y llena los espacios vacios con 0
+
+lower_bound(v.begin(), v.end(), buscado) - v.begin()
+--encuentra la posicion del valor buscado en el intervalo v.begin() a v.end()
+
+reinterpret_cast <tipo de dato *>(* otro tipo de dato)
+--cambia de un tipo de apuntador a otro
+
+
+void assert(int expression)
+--asegurarse de que se estan cumpliendo los valores deseados en los puntos deseados
+--sirve para debuguear código

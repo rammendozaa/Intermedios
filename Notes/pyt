@@ -1,0 +1,16 @@
+python3
+
+import math
+casos = int(input())
+--ya no existe raw_input
+
+map(int,input().strip().split(" "))
+--divide la entrada en un arreglo definido
+
+
+import sys
+for line in sys.stdin:
+    valores = []
+    for var in line.split():
+    valores.append(var)
+--equivalente a while(cin >> algo)
