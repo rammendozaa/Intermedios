@@ -31,6 +31,9 @@ bool isPrime(int n)
 
 int main(void)
 {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cout.tie(0);
     int cases, L, H;
     cin >> cases;
     while(cases--)
